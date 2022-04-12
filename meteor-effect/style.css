@@ -1,0 +1,61 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(15deg, #000, #9198e5);
+    transform: rotate(15deg);
+    height: 100vh;
+    overflow: hidden;
+}
+
+i {
+    position: absolute;
+    height: 16rem;
+    background: linear-gradient(transparent, #fff);
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    animation: meteor 5s linear Infinite;
+}
+
+@-moz-keyframes meteor {
+    0% {
+        transform: translateY(-16rem);
+    }
+
+    100% {
+        transform: translateY(calc(100vh + 16rem));
+    }
+}
+
+@-webkit-keyframes meteor {
+    0% {
+        transform: translateY(-16rem);
+    }
+
+    100% {
+        transform: translateY(calc(100vh + 16rem));
+    }
+}
+
+@-o-keyframes meteor {
+    0% {
+        transform: translateY(-16rem);
+    }
+
+    100% {
+        transform: translateY(calc(100vh + 16rem));
+    }
+}
+
+@keyframes meteor {
+    0% {
+        transform: translateY(-16rem);
+    }
+
+    100% {
+        transform: translateY(calc(100vh + 16rem));
+    }
+}
